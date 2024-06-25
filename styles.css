@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(247, 235, 243);
+}
+
+
+
+main{
+    background-image: url(./images/ashtamudi_lake.jpg);
+    height: 600px;
+    
+    
+
+}
+
+nav ul{
+    display: flex;
+    justify-content:right;
+    gap: 50px;
+    list-style-type: none;
+    margin-right: 100px;
+    padding-top: 50px;
+    
+    
+    
+
+    
+
+}
+
+
+.navlist{
+    color: rgb(237, 234, 248);
+    font-size: large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    
+
+}
+
+.btn2{
+    background-color: rgb(16, 223, 16);
+    width: 120px;
+    height: 40px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    color: rgb(234, 248, 248);
+    
+    
+}
+.btn1{
+
+    background-color: transparent;
+    border: 2px solid rgb(6, 194, 6) ;
+    width: 120px;
+    height: 40px;
+    font-size: larger;
+    font-weight: 20px;
+    border-radius: 5px;
+    color: rgb(248, 248, 249);
+}
+
+.btn3{
+
+    background-color: rgb(16, 223, 16);
+    width: 120px;
+    height: 40px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    color: rgb(234, 248, 248);
+    margin: 10px;
+   
+    
+
+
+}
+#logo{
+
+  width: 75px;
+  height: 75px;
+  position: relative;
+  right: 650px;
+  bottom: 40px;
+  background-color: aliceblue; 
+  border-radius: 250px;
+  margin: 10px;
+
+
+}
+
+.header_1{
+ display: flex;
+ justify-content:space-around;
+ align-items: center;
+ padding-top:100px ;
+
+
+}
+
+.header_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+.header_2 {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 50px;
+    text-decoration: none;
+   
+}
+
+
+ .district_1 ol{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+
+.district_1 p{
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.district_1 li{
+    
+    list-style: none;
+}
+
+.destination_1{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+    
+}
+
+
+
+.destination_1 article{
+    
+    padding: 10px;
+}
+
+
+.destination_1 article p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dest_1{
+    font-size: larger;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: rgb(36, 233, 36);
+
+}
+
+
+
+
+.kerala_2{
+
+
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    
+    
+    
+    
+    
+    
+}
+#map{
+   
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 200;
+    margin: 20px;
+    border: 3px solid rgb(35, 245, 77);
+  
+}
+
+.kerala_contain{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.img_dis{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 170px;
+    padding: 20px;
+    margin-left: 50px;
+
+   
+}
+
+.dist_img{
+    position: relative;
+    left: 180px;
+    font-weight: bolder;
+}
+
+.booking{
+    display: flex;
+    justify-content: center;   
+    padding: 20px;
+   
+}
+
+
+
+.form_2{
+
+    width: 300px;
+    height: 50px;
+    background-color: azure;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+h1, h2,h3{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: rgb(2, 1, 19);
+    text-decoration: underline;
+    text-decoration-color: rgb(87, 244, 87);
+    text-transform: uppercase;
+    
+    
+    
+
+}
+
+
+.container label{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+
+}
+
+.footer_1{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.list li {
+    list-style: none;
+    
+    
+}
+.list li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.list ul{
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+   padding: 20px;
+
+}
+
+
+
+.list2{
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer_2{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.booking h2{
+    text-decoration: none;
+}
+
+.booking_1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    gap: 20px;
+    
+    
+}
+.container{
+    margin-top: 30px;
+    width: 40%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 480px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
